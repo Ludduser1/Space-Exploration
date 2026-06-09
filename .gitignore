@@ -1,0 +1,20 @@
+# === Kompilerade filer och binärer ===
+# Ignorera standardnamnet på Macs kompilerade filer
+a.out
+
+# Ignorera om du döper din färdiga spelbar fil till något specifikt
+rymdspel
+rpgspel
+*.exe
+*.out
+*.app
+
+# === Objektfiler och byggmappar ===
+# Ignorera temporära filer som skapas under kompilering
+*.o
+*.obj
+.vscode/
+
+# === Mac OS systemfiler ===
+# Ignorera dolda filer som Mac skapar automatiskt i mappar
+.DS_Store
